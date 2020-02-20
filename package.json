@@ -1,0 +1,21 @@
+{
+  "name": "@nativerank/vuelytics-charts",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "private": false,
+  "description": "Vue +  High Charts + Analytics Data",
+  "scripts": {
+    "dev": "vue serve FirstComponent.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
